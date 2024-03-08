@@ -14,12 +14,25 @@ public class Person {
 
     // why is this called a GETTER??
     public String getFirstName() {
-        return firstName;
+
+        return this.firstName;
     }
 
     public String getLastName() {
-        return lastName;
+
+        return this.lastName;
     }
+
+    //getter and setter for lastname
+//    public void setLastName(String lastName) {
+//
+//        this.lastName = lastName;
+//    }
+//
+//    public void setFirstName(String firstName) {
+//
+//        this.firstName = firstName;
+//    }
 
     @Override // why is Override here??
     public String toString() {
